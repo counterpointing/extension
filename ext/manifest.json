@@ -29,7 +29,10 @@
        "js/lib/jquery-3.1.1.slim.min.js",
        "js/lib/mutation-summary.js",
        "js/lib/jquery.mutation-summary.js",
-       "js/bs-detector.js"
+       "js/contentManager.js",
+       "js/widgetManager.js",
+       "js/bs-detector.js",
+       "js/main.js"
      ],
      "matches": [ "*://*/*" ],
      "all_frames": true,
