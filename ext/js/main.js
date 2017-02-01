@@ -36,6 +36,9 @@ if(window === window.top || url2Domain(window.location.hostname) == 'twitter.com
         bsd.contentManager.data = state.sites;
         bsd.contentManager.shorts = state.shorteners;
 
+        bsd.widgetManager.data = state.sites;
+        bsd.widgetManager.shorts = state.shorteners;
+
         // Data loaded, start execution.
         $(document).ready(function () {
 
@@ -61,13 +64,13 @@ if (window.top === window) {
         switch (message.operation) {
             case 'flagSite':
                 bsd.dataType = message.type;
-                bsd.flagSite();
+                bsd.widgetManager.flagSite();
                 break;
             case 'toggleFlag':
                 if (bsd.flagState === 1) {
-                    bsd.hideFlag();
+                    bsd.widgetManager.hideFlag();
                 } else if (bsd.flagState === -1) {
-                    bsd.showFlag();
+                    bsd.widgetManager.showFlag();
                 }
                 break;
         }
