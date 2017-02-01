@@ -44,5 +44,6 @@
   ],
   "page_action": {
     "default_title": "Counterpointin"
-  }
+  },
+  "short_name": "counterpointing"
 }
