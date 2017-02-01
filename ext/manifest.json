@@ -1,10 +1,10 @@
 {
-  "name": "B.S. Detector",
-  "version": "0.2.8",
+  "name": "Counterpointing",
+  "version": "0.1.1",
   "manifest_version": 2,
   "default_locale": "en",
-  "description": "Warns users about unreliable news sources.",
-  "homepage_url": "https://github.com/selfagency/bs-detector",
+  "description": "[Counterpointing description]",
+  "homepage_url": "http://www.counterpointing.com",
   "permissions": [
     "*://unshorten.me/*",
     "webRequest",
@@ -43,6 +43,6 @@
     "data/data.json"
   ],
   "page_action": {
-    "default_title": "B.S. Detector"
+    "default_title": "Counterpointin"
   }
 }

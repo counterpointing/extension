@@ -1,7 +1,7 @@
 {
-  "name": "bs-detector",
+  "name": "cps-detector",
   "version": "0.0.1",
-  "description": "B.S. Detector warns you about unreliable news sites.",
+  "description": "[Counterpointing description]",
   "main": "gulpfile.js",
   "scripts": {
     "test": "dev"
@@ -14,12 +14,12 @@
     "browser",
     "extension"
   ],
-  "author": "B.S. Detector",
+  "author": "Counterpointing",
   "license": "LGPL-3.0",
   "bugs": {
-    "url": "https://github.com/selfagency/bs-detector/issues"
+    "url": "https://github.com/[TODO]/issues"
   },
-  "homepage": "https://github.com/selfagency/bs-detector#readme",
+  "homepage": "https://github.com/[TODO]#readme",
   "devDependencies": {
     "del": "^2.2.2",
     "gulp": "^3.9.1",
