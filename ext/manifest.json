@@ -40,7 +40,10 @@
      "run_at": "document_end"
   } ],
   "web_accessible_resources": [
-    "data/data.json"
+    "data/data.json",
+    "index.build.html",
+    "bower_components/polymer/polymer.html",
+    "index.build.js"
   ],
   "page_action": {
     "default_title": "Counterpointin"

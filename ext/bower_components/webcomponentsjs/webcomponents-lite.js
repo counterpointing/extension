@@ -1907,7 +1907,9 @@ window.CustomElements = window.CustomElements || {
   };
   scope.addModule = addModule;
   scope.initializeModules = initializeModules;
-  scope.hasNative = Boolean(document.registerElement);
+
+  //edit per http://stackoverflow.com/questions/30022350/registering-a-custom-element-from-a-chrome-extension/30034988#30034988
+  scope.hasNative = false // Boolean(document.registerElement);
   scope.isIE = /Trident/.test(navigator.userAgent);
   scope.useNative = !flags.register && scope.hasNative && !window.ShadowDOMPolyfill && (!window.HTMLImports || window.HTMLImports.useNative);
 })(window.CustomElements);

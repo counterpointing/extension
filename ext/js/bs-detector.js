@@ -178,6 +178,9 @@ BSDetector.prototype = {
                 case 'twitter.com':
                     this.siteId = 'twitter';
                     break;
+                case 'huffingtonpost.com':
+                    this.siteId = "huffingtonpost";
+                    break;
                 default:
                     this.siteId = 'none';
                     // Try to find the site in data
